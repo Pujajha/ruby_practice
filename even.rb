@@ -1,8 +1,7 @@
 puts "Enter the integer:"
 a = gets
-if (a % 2 == 0)	 {
+if a.even?
 	puts "This is even."
-}
 else
-		puts "This is odd."
+	puts "This is odd."
 end
